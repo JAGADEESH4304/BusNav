@@ -1,31 +1,50 @@
-# Bus-Route-Planner
+Bus Route Planner 🚍
+Overview
+The Bus Route Planner is a web-based application that helps users find the best bus routes between a given source and destination. It calculates the shortest travel time or cheapest fare using Dijkstra’s algorithm.
 
-## Overview
+Features
+✅ Find Optimal Bus Routes – Based on time or cost preferences
+✅ Graph-Based Pathfinding – Uses Dijkstra’s algorithm
+✅ Interactive Web UI – Simple and easy-to-use interface
+✅ Real-Time Input Handling – Users can enter any source and destination
+✅ Efficient and Scalable – Built for accurate and fast computations
 
-The **Bus-Route-Planner** is a Data Structures and Algorithms (DSA) project that determines the optimal route to a specified destination using graphs and heaps. Users provide the source and destination, and the program calculates the most efficient path based on time and distance.
+Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Python (Flask)
+Algorithm: Dijkstra’s Algorithm
+Data Storage: Text files or databases for route details
+How to Run
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/JAGADEESH4304/Bus-Route-Planner.git
+cd Bus-Route-Planner
+2. Install Dependencies
+bash
+Copy
+Edit
+pip install flask
+3. Run the Flask Server
+bash
+Copy
+Edit
+python app.py
+The server will start at http://127.0.0.1:5000/
 
-## Features
+4. Open the Web UI
+Open your browser and go to http://127.0.0.1:5000/ to use the Bus Route Planner.
 
-- **Optimal Path Calculation:** Utilizes graph and heap data structures to find the shortest path between the source and destination.
-- **Customizable Input:** Users can specify their starting point and destination to receive tailored route information.
+Usage
+Enter the source and destination locations.
+Choose the preferred route type (shortest time or cheapest fare).
+Click Find Route to see the suggested path.
+Contributing
+Feel free to contribute by adding new features, improving the UI, or optimizing the algorithm.
 
-## Data Files
-
-- **BUS.TXT:** Contains bus route information.
-- **EdgeWeight.txt:** Stores the weights (e.g., distances or times) between connected nodes in the graph.
-
-## Implementation
-
-The project is implemented in Python and includes the following modules:
-
-- **Graph.py:** Manages the graph data structure and related algorithms.
-- **MinHeap.py:** Implements the min-heap data structure to support efficient pathfinding operations.
-
-## Usage
-
-1. **Prepare Data Files:** Ensure that `BUS.TXT` and `EdgeWeight.txt` are populated with accurate and up-to-date information about bus routes and edge weights.
-2. **Run the Program:** Execute the main script and input your source and destination when prompted.
-3. **Receive Optimal Route:** The program will output the most efficient path based on the provided data.
+License
+This project is open-source under the MIT License.
 
 
 
