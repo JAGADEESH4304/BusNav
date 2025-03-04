@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Route Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bus Route Planner</h1>
+        <form id="routeForm">
+            <label for="source">Source:</label>
+            <input type="text" id="source" name="source" required>
+            
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            
+            <label for="transport">Transport Type:</label>
+            <select id="transport" name="transport">
+                <option value="own">Own Transport</option>
+                <option value="bus">Public Transport</option>
+            </select>
+            
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority">
+                <option value="shortest_time">Shortest Time</option>
+                <option value="cheapest">Cheapest Price</option>
+            </select>
+            
+            <button type="submit">Find Route</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
