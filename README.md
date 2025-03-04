@@ -1,5 +1,5 @@
 
-# 🚍 Bus Route Planner
+# 🚍 Bus Nav
 
 ## 🌟 Overview  
 The **Bus Route Planner** is an interactive web application designed to help users navigate the best bus routes between locations. It intelligently calculates **the shortest travel time** or **the cheapest fare**, leveraging **Dijkstra’s algorithm** to ensure efficient route planning. 🚀
