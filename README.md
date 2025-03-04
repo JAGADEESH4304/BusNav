@@ -44,8 +44,6 @@ python app.py
 2️⃣ Choose your preference: **shortest time** or **cheapest fare**.  
 3️⃣ Click **Find Route** and view your recommended path instantly!  
 
-## 🤝 Contributing  
-Want to make this project even better? Feel free to **add new features, enhance the UI, or optimize the algorithm**! Contributions are always welcome. 🚀  
 
 💡 *Plan smarter. Travel better. Try the Bus Nav today!*
 
