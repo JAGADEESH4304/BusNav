@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+input, select, button {
+    display: block;
+    margin: 10px auto;
+}
