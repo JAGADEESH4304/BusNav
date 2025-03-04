@@ -2,7 +2,7 @@
 # 🚍 Bus Nav
 
 ## 🌟 Overview  
-The **Bus Route Planner** is an interactive web application designed to help users navigate the best bus routes between locations. It intelligently calculates **the shortest travel time** or **the cheapest fare**, leveraging **Dijkstra’s algorithm** to ensure efficient route planning. 🚀
+The **Bus Nav** is an interactive web application designed to help users navigate the best bus routes between locations. It intelligently calculates **the shortest travel time** or **the cheapest fare**, leveraging **Dijkstra’s algorithm** to ensure efficient route planning. 🚀
 
 ## 🔥 Features  
 ✅ **Find the Best Bus Routes** – Choose between shortest time or lowest fare options.  
@@ -21,7 +21,7 @@ The **Bus Route Planner** is an interactive web application designed to help use
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/JAGADEESH4304/Bus-Route-Planner.git
+git clone https://github.com/JAGADEESH4304/BusNav.git
 cd Bus-Route-Planner
 ```
 
@@ -47,8 +47,5 @@ python app.py
 ## 🤝 Contributing  
 Want to make this project even better? Feel free to **add new features, enhance the UI, or optimize the algorithm**! Contributions are always welcome. 🚀  
 
-## 📜 License  
-This project is open-source under the **MIT License**.  
-
-💡 *Plan smarter. Travel better. Try the Bus Route Planner today!*
+💡 *Plan smarter. Travel better. Try the Bus Nav today!*
 
